@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "elytrafly",
+  "version": "1.0.0",
+  "name": "ElytraFly",
+  "description": "Elytra creative flight — localhost only",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.elytrafly.ElytraFlyMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
