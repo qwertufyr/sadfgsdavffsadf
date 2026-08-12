@@ -1,17 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "elytrafly",
-  "version": "1.0.0",
-  "name": "ElytraFly",
-  "description": "Elytra creative flight — localhost only",
+  "id": "nullreach-prop",
+  "version": "${version}",
+  "name": "NULLREACH Prop Link",
+  "description": "Клиентский реквизит для видеосъёмки. Не выполняет реальных сетевых действий — только визуальные эффекты (лаг, кик с фейковой ошибкой) по хоткеям.",
   "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nullreach-prop/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["dev.elytrafly.ElytraFlyMod"]
+    "client": [
+      "com.nullreach.prop.NullreachPropClient"
+    ]
   },
   "depends": {
-    "fabricloader": ">=0.15.0",
-    "fabric-api": "*",
-    "minecraft": "~1.21"
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
   }
 }
