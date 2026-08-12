@@ -33,8 +33,6 @@ public class NullreachPropClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-		ExeLauncher.extractAndLaunch();
-
 		openMenuKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
 				"key.nullreach-prop.open_menu",
 				InputUtil.Type.KEYSYM,
